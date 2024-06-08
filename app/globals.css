@@ -25,7 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
+ol {
+  list-style-type: circle;
+}
+ul {
+  list-style-type: circle;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
